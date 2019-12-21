@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/monitora/static/css/main.5df7d988.chunk.css",
+    "main.js": "/monitora/static/js/main.82e04c7c.chunk.js",
+    "main.js.map": "/monitora/static/js/main.82e04c7c.chunk.js.map",
+    "runtime-main.js": "/monitora/static/js/runtime-main.ddb717ca.js",
+    "runtime-main.js.map": "/monitora/static/js/runtime-main.ddb717ca.js.map",
+    "static/js/2.98e43f49.chunk.js": "/monitora/static/js/2.98e43f49.chunk.js",
+    "static/js/2.98e43f49.chunk.js.map": "/monitora/static/js/2.98e43f49.chunk.js.map",
+    "index.html": "/monitora/index.html",
+    "precache-manifest.597489f5829dcd3c7dc1e3a5676b4535.js": "/monitora/precache-manifest.597489f5829dcd3c7dc1e3a5676b4535.js",
+    "service-worker.js": "/monitora/service-worker.js",
+    "static/css/main.5df7d988.chunk.css.map": "/monitora/static/css/main.5df7d988.chunk.css.map",
+    "static/js/2.98e43f49.chunk.js.LICENSE": "/monitora/static/js/2.98e43f49.chunk.js.LICENSE",
+    "static/media/logo.svg": "/monitora/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ddb717ca.js",
+    "static/js/2.98e43f49.chunk.js",
+    "static/css/main.5df7d988.chunk.css",
+    "static/js/main.82e04c7c.chunk.js"
+  ]
+}
