@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eb714ac96b3d798a27ca440b82793102",
+    "revision": "942d924de1ae33661b906a9ef73efd1f",
     "url": "/monitora/index.html"
   },
   {
-    "revision": "8f97d3674f60703ac5f0",
+    "revision": "9f8c03a764b884a6873a",
     "url": "/monitora/static/css/main.5df7d988.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/monitora/static/js/2.98e43f49.chunk.js.LICENSE"
   },
   {
-    "revision": "8f97d3674f60703ac5f0",
-    "url": "/monitora/static/js/main.82e04c7c.chunk.js"
+    "revision": "9f8c03a764b884a6873a",
+    "url": "/monitora/static/js/main.5d6f24de.chunk.js"
   },
   {
     "revision": "6d6548c4fc05e6bab91e",
