@@ -16,9 +16,10 @@ export default class App extends Component{
    client =  mqtt.connect("wss://test.mosquitto.org:8081",/*this.state.brokerURL*/"monitora", 'clientic_' + Math.random())
    client.on('connect', function(){
      console.log('conectado ao broker')
-   })   
+   })
+  }   
 
-
+  render(){
     
     return(
       <MapGL
