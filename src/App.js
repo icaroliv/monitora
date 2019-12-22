@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import logo from './logo.svg';
+
 import './App.css';
 import MapGL, {GeolocateControl} from 'react-map-gl'
 require('dotenv').config()
@@ -12,12 +12,23 @@ export default class App extends Component{
 
   }
 
-  conection(){
+  conection = () =>{
    client =  mqtt.connect("wss://test.mosquitto.org:8081",/*this.state.brokerURL*/"monitora", 'clientic_' + Math.random())
    client.on('connect', function(){
-     console.log('conectado ao broker')
+  
+     console.log('conectado')
+
    })
-  }   
+
+   
+  }
+  
+  
+  acionar= () => {
+   if(client.connected){
+      client.publish(process.env.REACT_APP_TOPIC_PUBLISH)
+   }
+  }
 
   render(){
     
@@ -28,7 +39,7 @@ export default class App extends Component{
        width={1000}
        altitude={15.8}
       >
-
+        <button onClick={this.acionar}>Acionar</button>
         <button onClick={this.conection}> Conectar</button>
 
       </MapGL>
